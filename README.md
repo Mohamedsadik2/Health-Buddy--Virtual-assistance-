@@ -85,7 +85,7 @@ Python's emphasis on code readability and maintainability facilitates the develo
 
 ####  Safeguarding user`s privacy and security is the top priority. Here's how we ensure that users`s data remains private and secure while using Health Buddy:
 
-<span style="color:RED;">your_text</span>
+
 
 
 
