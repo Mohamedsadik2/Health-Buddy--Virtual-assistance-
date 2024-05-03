@@ -18,18 +18,18 @@ With Health Buddy, users can easily create and maintain their patient records, c
 By bridging the gap between users and healthcare providers, Health Buddy fosters collaboration, transparency, and empowerment in healthcare delivery. Whether you're a patient looking to take control of your health or a healthcare provider striving to deliver personalized care, Health Buddy offers the tools and support you need to succeed.
 ##  Exploring Health Buddy's Chatbot Capabilities
 Health Buddy makes it easy to get expert advice through its handy Chatbot feature. Whether you're dealing with symptoms, learning about different diseases, or figuring out the best diet and exercise plan, the Chatbot is there to help. Drawing on a lot of medical knowledge, it gives you accurate information and personal advice whenever you need it. Here's what the Chatbot can do:
-span style="text-decoration:underline;">your_word</span>
-span style="text-decoration:underline;">Symptom Checker</span>: The Chatbot asks you questions about your symptoms and gives you advice on whether you should see a doctor or try home remedies.
 
-Disease Information: You can ask the Chatbot about specific diseases to learn about symptoms, causes, treatments, and how to prevent them.
+#### Symptom Checker: The Chatbot asks you questions about your symptoms and gives you advice on whether you should see a doctor or try home remedies.
 
-Nutritional Advice: Based on what you like to eat, your health goals, and any health issues you have, the Chatbot gives you personalized advice about what to eat.
+#### Disease Information: You can ask the Chatbot about specific diseases to learn about symptoms, causes, treatments, and how to prevent them.
 
-Exercise Recommendations: The Chatbot suggests exercises based on how fit you are, what you want to achieve, and if you have any injuries or limitations.
+#### Nutritional Advice: Based on what you like to eat, your health goals, and any health issues you have, the Chatbot gives you personalized advice about what to eat.
 
-Medication Reminders: The Chatbot reminds you to take your medicine on time and tells you about the right dose, side effects, and if it interacts with other medicines.
+#### Exercise Recommendations: The Chatbot suggests exercises based on how fit you are, what you want to achieve, and if you have any injuries or limitations.
 
-Stress Management Techniques: You can learn different ways to manage stress, like breathing exercises, mindfulness, and relaxation, with the Chatbot's help.
+#### edication Reminders: The Chatbot reminds you to take your medicine on time and tells you about the right dose, side effects, and if it interacts with other medicines.
+
+#### Stress Management Techniques: You can learn different ways to manage stress, like breathing exercises, mindfulness, and relaxation, with the Chatbot's help.
 
 Health Tracking: You can tell the Chatbot things like your weight, blood pressure, and blood sugar levels, so it can keep track of changes over time and give you advice based on what it sees.
 
