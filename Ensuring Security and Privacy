@@ -52,3 +52,50 @@ if __name__ == "__main__":
     print("Decrypted Data:", decrypted_info)
 
 This code snippet demonstrates a basic implementation of data encryption in Python for the Health Buddy project. Depending on the specific requirements and architecture of the project, additional security measures such as access controls, secure communication protocols, and data anonymization may also be implemented.
+
+Here's an example of how data anonymization can be implemented in Python to anonymize users' data in the Health Buddy project:
+
+import hashlib
+
+class DataAnonymization:
+    def anonymize_data(self, user_data):
+        anonymized_data = {}
+
+        # Anonymize sensitive fields using hash functions
+        anonymized_data['user_id'] = self.hash_data(user_data['user_id'])
+        anonymized_data['name'] = self.hash_data(user_data['name'])
+        anonymized_data['email'] = self.hash_data(user_data['email'])
+
+        # Other non-sensitive fields can remain unchanged
+        anonymized_data['age'] = user_data['age']
+        anonymized_data['gender'] = user_data['gender']
+
+        return anonymized_data
+
+    def hash_data(self, data):
+        # Use SHA-256 hashing algorithm to hash the data
+        hashed_data = hashlib.sha256(data.encode()).hexdigest()
+        return hashed_data
+
+# Example Usage:
+if __name__ == "__main__":
+    # Sample user data
+    user_data = {
+        'user_id': '12345',
+        'name': 'John Doe',
+        'email': 'johndoe@example.com',
+        'age': 30,
+        'gender': 'Male'
+    }
+
+    # Initialize DataAnonymization
+    anonymizer = DataAnonymization()
+
+    # Anonymize user data
+    anonymized_user_data = anonymizer.anonymize_data(user_data)
+    print("Anonymized User Data:", anonymized_user_data)
+
+The DataAnonymization class defines a method anonymize_data to anonymize sensitive user data.
+Sensitive fields such as user_id, name, and email are anonymized using cryptographic hash functions (in this case, SHA-256).
+Non-sensitive fields such as age and gender remain unchanged.
+Anonymized data retains its integrity for analysis while protecting user privacy by preventing direct identification of individuals.
