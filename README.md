@@ -31,13 +31,16 @@ Health Buddy makes it easy to get expert advice through its handy Chatbot featur
 
 #### Stress Management Techniques: You can learn different ways to manage stress, like breathing exercises, mindfulness, and relaxation, with the Chatbot's help.
 
-Health Tracking: You can tell the Chatbot things like your weight, blood pressure, and blood sugar levels, so it can keep track of changes over time and give you advice based on what it sees.
+#### Health Tracking: You can tell the Chatbot things like your weight, blood pressure, and blood sugar levels, so it can keep track of changes over time and give you advice based on what it sees.
 
-Appointment Scheduling: The Chatbot helps you make appointments with doctors, reminds you when they are coming up, and even tells you how to get there.
+#### Appointment Scheduling: The Chatbot helps you make appointments with doctors, reminds you when they are coming up, and even tells you how to get there.
 
-Mental Health Support: You can get information and resources about mental health conditions, ways to cope, and what treatments are available, all from talking to the Chatbot.
+#### Mental Health Support: You can get information and resources about mental health conditions, ways to cope, and what treatments are available, all from talking to the Chatbot.
 
-With its easy-to-use design and lots of helpful features, Health Buddy's Chatbot lets you take charge of your health journey with confidence and convenience
+#### With its easy-to-use design and lots of helpful features, Health Buddy's Chatbot lets you take charge of your health journey with confidence and convenience
+
+<span style="text-decoration:underline;">chat boot</span>
+
 
 
 
