@@ -18,8 +18,8 @@ With Health Buddy, users can easily create and maintain their patient records, c
 By bridging the gap between users and healthcare providers, Health Buddy fosters collaboration, transparency, and empowerment in healthcare delivery. Whether you're a patient looking to take control of your health or a healthcare provider striving to deliver personalized care, Health Buddy offers the tools and support you need to succeed.
 ##  Exploring Health Buddy's Chatbot Capabilities
 Health Buddy makes it easy to get expert advice through its handy Chatbot feature. Whether you're dealing with symptoms, learning about different diseases, or figuring out the best diet and exercise plan, the Chatbot is there to help. Drawing on a lot of medical knowledge, it gives you accurate information and personal advice whenever you need it. Here's what the Chatbot can do:
-
-Symptom Checker: The Chatbot asks you questions about your symptoms and gives you advice on whether you should see a doctor or try home remedies.
+span style="text-decoration:underline;">your_word</span>
+span style="text-decoration:underline;">Symptom Checker</span>: The Chatbot asks you questions about your symptoms and gives you advice on whether you should see a doctor or try home remedies.
 
 Disease Information: You can ask the Chatbot about specific diseases to learn about symptoms, causes, treatments, and how to prevent them.
 
