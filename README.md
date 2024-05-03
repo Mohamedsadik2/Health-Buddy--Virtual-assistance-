@@ -81,6 +81,12 @@ Python's scalability allows Health Buddy to handle large volumes of data and acc
 #### Security and Reliability:
 Python's emphasis on code readability and maintainability facilitates the development of secure and reliable software systems. By adhering to industry best practices and security guidelines, Health Buddy ensures the confidentiality, integrity, and availability of user data while minimizing the risk of vulnerabilities and breaches.
 
+## Ensuring Privacy and Security
+
+####  Safeguarding user`s privacy and security is the top priority. Here's how we ensure that users`s data remains private and secure while using Health Buddy:
+
+<span style="color:RED;">your_text</span>
+
 
 
 
