@@ -39,7 +39,11 @@ Health Buddy makes it easy to get expert advice through its handy Chatbot featur
 
 #### With its easy-to-use design and lots of helpful features, Health Buddy's Chatbot lets you take charge of your health journey with confidence and convenience
 
-<span style="text-decoration:underline;">chat boot</span>
+<span style="text-decoration:underline;">your_word</span>
+0
+0
+0
+0
 
 
 
