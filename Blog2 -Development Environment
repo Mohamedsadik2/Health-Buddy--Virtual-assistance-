@@ -63,7 +63,7 @@ time.sleep(delay_seconds)
 send_medication_reminder()
 Health Buddy can offer a wide range of health education resources, including articles, videos, and quizzes on various health topics. It could help users learn more about their health conditions, preventive care, and lifestyle changes for better health.
 class HealthBuddy:
-   class HealthEducationResources:
+  class HealthEducationResources:
     def __init__(self):
         self.resources = {}
 
