@@ -63,6 +63,7 @@ time.sleep(delay_seconds)
 send_medication_reminder()
 Health Buddy can offer a wide range of health education resources, including articles, videos, and quizzes on various health topics. It could help users learn more about their health conditions, preventive care, and lifestyle changes for better health.
 class HealthBuddy:
+   class HealthEducationResources:
     def __init__(self):
         self.resources = {}
 
@@ -74,17 +75,6 @@ class HealthBuddy:
         for title, content in self.resources.items():
             print(f"- {title}: {content}")
 
-# Creating a HealthBuddy instance
-health_buddy = HealthBuddy()
-
-# Adding health education resources
-health_buddy.add_resource("Understanding Diabetes", "Learn about the causes, symptoms, and management of diabetes.")
-health_buddy.add_resource("Healthy Eating Habits", "Discover tips for maintaining a balanced diet and making healthier food choices.")
-health_buddy.add_resource("Stress Management Techniques", "Explore strategies for reducing stress and improving mental well-being.")
-
-# Displaying available resources
-health_buddy.display_resources()
-Health Buddy can facilitate seamless communication between users and their healthcare providers. It could allow users to share their health data securely with their doctors, schedule appointments, and receive feedback and recommendations from healthcare professionals.
 class HealthBuddy:
     def __init__(self):
         self.appointments = {}
@@ -94,6 +84,17 @@ class HealthBuddy:
 
     def get_appointment_info(self, user_id):
         return self.appointments.get(user_id, None)
+
+# Creating a HealthEducationResources instance
+health_resources = HealthEducationResources()
+
+# Adding health education resources
+health_resources.add_resource("Understanding Diabetes", "Learn about the causes, symptoms, and management of diabetes.")
+health_resources.add_resource("Healthy Eating Habits", "Discover tips for maintaining a balanced diet and making healthier food choices.")
+health_resources.add_resource("Stress Management Techniques", "Explore strategies for reducing stress and improving mental well-being.")
+
+# Displaying available resources
+health_resources.display_resources()
 
 # Creating a HealthBuddy instance
 health_buddy = HealthBuddy()
