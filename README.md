@@ -107,6 +107,56 @@ This is where the concept of a virtual health assistant, or "Health Buddy," beco
 
 Health Buddy goes beyond just symptom tracking by combine wearable device integration to monitor my uncle's vital signs. This continuous data collection generates comprehensive reports that provide insights into his health status, even when he may not be able to articulate it himself. With this proactive approach to healthcare management, we can ensure that my uncle's well-being remains under control, even in the face of Alzheimer's-related memory loss.
 
+## Automated Symptom Tracker 
+
+We  can use this automation code to ensure receiveing regular reminders to record the symptoms
+
+import tkinter as tk
+from datetime import datetime, timedelta
+import csv
+import threading
+
+def record_symptoms(symptoms):
+    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    with open('symptoms.csv', 'a', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow([timestamp] + symptoms)
+    print("Symptoms recorded successfully.")
+
+def submit_symptoms():
+    symptoms = entry_symptoms.get().split(',')  # Assuming symptoms are entered as comma-separated values
+    record_symptoms(symptoms)
+    label_feedback.config(text="Symptoms recorded successfully.")
+
+def scheduled_reminder():
+    threading.Timer(24 * 3600, scheduled_reminder).start()  # Remind every 24 hours
+    # You can customize the reminder message here
+    print("Reminder: Don't forget to record your symptoms!")
+
+# Create GUI window
+window = tk.Tk()
+window.title("Health Buddy - Symptom Tracker")
+
+# Create input field for symptoms
+label_symptoms = tk.Label(window, text="Enter symptoms (comma-separated):")
+label_symptoms.pack()
+entry_symptoms = tk.Entry(window)
+entry_symptoms.pack()
+
+# Create submit button
+button_submit = tk.Button(window, text="Submit", command=submit_symptoms)
+button_submit.pack()
+
+# Create feedback label
+label_feedback = tk.Label(window, text="")
+label_feedback.pack()
+
+# Start scheduled reminders
+scheduled_reminder()
+
+# Start GUI event loop
+window.mainloop()
+
 
 
 
