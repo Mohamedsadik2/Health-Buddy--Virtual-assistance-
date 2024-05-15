@@ -112,6 +112,7 @@ Health Buddy goes beyond just symptom tracking by combine wearable device integr
 We  can use this automation code to ensure receiveing regular reminders to record the symptoms
 
 
+```python
 import tkinter as tk
 from datetime import datetime, timedelta
 import csv
@@ -157,6 +158,7 @@ scheduled_reminder()
 
 # Start GUI event loop
 window.mainloop()
+
 
 
 
