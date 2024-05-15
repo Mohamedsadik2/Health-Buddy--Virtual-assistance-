@@ -113,11 +113,8 @@ We  can use this automation code to ensure receiveing regular reminders to recor
 
 
 import tkinter as tk
-
 from datetime import datetime, timedelta
-
 import csv
-
 import threading
 
 def record_symptoms(symptoms):
@@ -137,29 +134,30 @@ def scheduled_reminder():
     # You can customize the reminder message here
     print("Reminder: Don't forget to record your symptoms!")
 
-#Create GUI window
+# Create GUI window
 window = tk.Tk()
 window.title("Health Buddy - Symptom Tracker")
 
-#Create input field for symptoms
+# Create input field for symptoms
 label_symptoms = tk.Label(window, text="Enter symptoms (comma-separated):")
 label_symptoms.pack()
 entry_symptoms = tk.Entry(window)
 entry_symptoms.pack()
 
-#Create submit button
+# Create submit button
 button_submit = tk.Button(window, text="Submit", command=submit_symptoms)
 button_submit.pack()
 
-#Create feedback label
+# Create feedback label
 label_feedback = tk.Label(window, text="")
 label_feedback.pack()
 
-#Start scheduled reminders
+# Start scheduled reminders
 scheduled_reminder()
 
-#Start GUI event loop
+# Start GUI event loop
 window.mainloop()
+
 
 
 
